@@ -3,14 +3,14 @@ import './App.css';
 import Table from './components/Table';
 import Filters from './components/Filters';
 import Provider from './context/Provider';
+import Order from './components/Order';
 
 function App() {
   return (
     <Provider>
-      <main>
-        <Filters />
-        <Table />
-      </main>
+      <Filters />
+      <Order />
+      <Table />
     </Provider>
   );
 }
