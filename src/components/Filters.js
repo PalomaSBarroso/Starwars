@@ -143,7 +143,7 @@ function Filters() {
                 id={ column }
                 onClick={ eraseFilters }
               >
-                X
+                Undefine filter
               </button>
             </div>
           ))}

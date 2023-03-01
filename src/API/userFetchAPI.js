@@ -14,7 +14,7 @@ function useFetchAPI() {
         selectPlanetsList(filterPlanets);
         defineListSource(filterPlanets);
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
       }
     };
     getPlanets();
